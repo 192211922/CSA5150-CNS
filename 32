@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int mod(int a, int m) {
+    int result = a % m;
+    if (result < 0) {
+        result += m;
+  }
